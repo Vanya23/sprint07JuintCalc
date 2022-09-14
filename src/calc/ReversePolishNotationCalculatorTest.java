@@ -45,7 +45,7 @@ public class ReversePolishNotationCalculatorTest {
 
     @Test
     public void shouldCalculateMult3numbers() {
-        String input = "1 1000 5 * *";
+        String input = "1 1000 5  * *";
         assertEquals(5000, pcalc.calculatePolishNotation(input));
 
     }
